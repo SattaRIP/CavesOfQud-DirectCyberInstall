@@ -1,5 +1,7 @@
 # Direct Cybernetic Install for Caves of Qud
 
+[![Steam Workshop](https://img.shields.io/badge/Steam-Workshop-blue)](https://steamcommunity.com/sharedfiles/filedetails/?id=3660796791)
+
 A quality-of-life mod that adds cybernetic management options directly to the inventory menu.
 
 ## Features
@@ -10,7 +12,13 @@ A quality-of-life mod that adds cybernetic management options directly to the in
 
 ## Installation
 
-1. Subscribe to this mod on the Steam Workshop, OR:
+### Via Steam Workshop (Recommended)
+
+[Subscribe on Steam Workshop](https://steamcommunity.com/sharedfiles/filedetails/?id=3660796791)
+
+### Manual Installation
+
+1. Download the latest release, OR:
 2. Copy the `DirectCyberInstall` folder to your Caves of Qud mods directory:
    - **Linux**: `~/.config/unity3d/Freehold Games/Caves of Qud/Mods/`
    - **Windows**: `%USERPROFILE%\AppData\LocalLow\Freehold Games\Caves of Qud\Mods\`
