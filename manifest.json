@@ -1,0 +1,9 @@
+{
+  "id": "DirectCyberInstall",
+  "title": "Direct Cybernetic Install",
+  "description": "Adds 'Install Cybernetic' and 'Uninstall Cybernetic' options to inventory menu for easy cybernetics management.",
+  "version": "2.0.0",
+  "author": "mythraps",
+  "tags": "Quality of Life",
+  "loadOrder": 100
+}
