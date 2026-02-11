@@ -175,6 +175,13 @@ namespace XRL.World.Parts
 
             if (targetSlot != null)
             {
+                // Remove from inventory first
+                GameObject inventory = item.InInventory;
+                if (inventory != null)
+                {
+                    inventory.Inventory.RemoveObject(item);
+                }
+
                 targetSlot.Implant(item);
                 if (player.IsPlayer())
                 {
@@ -241,6 +248,14 @@ namespace XRL.World.Parts
             if (choice >= 0 && choice < compatibleSlots.Count)
             {
                 BodyPart targetSlot = compatibleSlots[choice];
+
+                // Remove from inventory first
+                GameObject inventory = item.InInventory;
+                if (inventory != null)
+                {
+                    inventory.Inventory.RemoveObject(item);
+                }
+
                 targetSlot.Implant(item);
                 if (player.IsPlayer())
                 {
@@ -257,8 +272,15 @@ namespace XRL.World.Parts
                 return;
             }
 
-            // Unimplant using the game's built-in method, keeping item in inventory
+            // Unimplant and add back to inventory
             item.Unimplant(MoveToInventory: false);
+
+            // Ensure it's in the player's inventory
+            if (item.InInventory == null)
+            {
+                player.Inventory.AddObject(item);
+            }
+
             if (player.IsPlayer())
             {
                 XRL.Messages.MessageQueue.AddPlayerMessage("{{Y|Uninstalled " + item.DisplayName + ".}}");
