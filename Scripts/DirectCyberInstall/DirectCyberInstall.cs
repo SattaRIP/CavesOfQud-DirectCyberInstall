@@ -101,19 +101,16 @@ namespace XRL.World.Parts
             if (E.Command == "InstallCyberneticAuto")
             {
                 InstallAutomatic(cyber, E.Item, player);
-                E.RequestInterfaceExit();
                 return base.HandleEvent(E);
             }
             else if (E.Command == "InstallCyberneticManual")
             {
                 InstallManual(cyber, E.Item, player);
-                E.RequestInterfaceExit();
                 return base.HandleEvent(E);
             }
             else if (E.Command == "UninstallCybernetic")
             {
                 Uninstall(cyber, E.Item, player);
-                E.RequestInterfaceExit();
                 return base.HandleEvent(E);
             }
 
