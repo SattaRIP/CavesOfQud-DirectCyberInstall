@@ -1,6 +1,8 @@
 {
+  "WorkshopId": 3660796791,
   "Title": "Direct Cybernetic Install",
-  "Description": "Adds 'Install Cybernetic' and 'Uninstall Cybernetic' options directly to the inventory menu for easy cybernetics management. No more hunting through menus!",
-  "Tags": "quality of life, cybernetics, interface",
-  "Visibility": "0"
+  "Description": "A quality-of-life mod that adds cybernetic management directly to the inventory menu. Unbalanced, duh.\nBecoming Nook's interface is annoying to deal with. This is mainly to bypass that.\nRight click cybernetics either in inventory or in your character slots.\n• Works with all base game and modded cybernetics\n• Safe to add to existing saves\n• No conflicts with other mods\n\nGitHub: https://github.com/SattaRIP/CavesOfQud-DirectCyberInstall\nSupport my mods on Patreon: patreon.com/mythraps\n",
+  "Tags": "Quality of Life, Interface, Cybernetics",
+  "Visibility": "2",
+  "ImagePath": "preview.png"
 }
