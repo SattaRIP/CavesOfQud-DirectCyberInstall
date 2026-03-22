@@ -6,8 +6,9 @@ A quality-of-life mod that adds cybernetic management options directly to the in
 
 ## Features
 
-- **Install Cybernetic**: Right-click any cybernetic in your inventory to install it directly
-- **Uninstall Cybernetic**: Right-click any installed cybernetic to uninstall it
+- **Install Cybernetic (Automatic)**: Press 'a' to auto-install to the first available compatible slot
+- **Install Cybernetic (Manual)**: Press 'm' to choose which specific body slot to install to
+- **Uninstall Cybernetic**: Press 'u' to remove an installed cybernetic
 - **No More Menu Diving**: Skip the Equipment > Cybernetics menu navigation
 
 ## Installation
@@ -28,8 +29,10 @@ A quality-of-life mod that adds cybernetic management options directly to the in
 
 1. Open your inventory (default: `i`)
 2. Select a cybernetic implant
-3. Choose **Install Cybernetic** from the menu
-4. To uninstall, select an installed cybernetic and choose **Uninstall Cybernetic**
+3. Choose from the menu:
+   - **Install cybernetic (automatic)** - Press 'a' to auto-select first empty compatible slot
+   - **Install cybernetic (manual)** - Press 'm' to choose which slot to install to
+4. To uninstall, select an installed cybernetic and press 'u' for **Uninstall Cybernetic**
 
 ## Compatibility
 
