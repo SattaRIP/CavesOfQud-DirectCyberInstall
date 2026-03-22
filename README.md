@@ -44,6 +44,10 @@ A quality-of-life mod that adds cybernetic management options directly to the in
 
 Created by mythraps
 
+## Support
+
+If you enjoy this mod, consider supporting me on [Patreon](https://www.patreon.com/c/mythraps)!
+
 ## License
 
 Feel free to modify and share!
